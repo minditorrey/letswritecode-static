@@ -1,0 +1,1 @@
+# letswritecode-static
