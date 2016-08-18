@@ -206,6 +206,16 @@ text-rendering: optimizelegibility;
 	text-align: center;
 }
 
+#hero .wrapper {
+	position: relative;
+}
+
+#hero img.mindi {
+	position: absolute;
+	bottom: -22.5em;
+	left: 0;
+
+}
 #hero .hero-text {
 	margin-top: 30px;
 }
@@ -364,6 +374,7 @@ section h3 {
 	color: white;
 }
 
+/*Instructor*/
 #instructor {
 	background: white url('../img/mindi.png') 75% 100%  no-repeat;
 }
@@ -771,6 +782,9 @@ padding: 20px;
 }
 
 @media screen and ( max-width: 768px ) {
+	#hero img.mindi {
+		display: none;
+	}
 	.logo {
 		width: 50%;
 	}
@@ -793,11 +807,13 @@ padding: 20px;
 }
 
 @media screen and ( max-width: 568px ) {
+
 	#instructor .num {
 		height: 100px;
 		width: 100px;
 		font-size: 22px;
 	}
+
 	#instructor .num span {
 		font-size: 16px;
 	}
