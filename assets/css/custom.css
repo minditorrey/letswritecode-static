@@ -626,16 +626,34 @@ footer li.signup-link a:hover {
 
 /* ==== SKILLS ==== */
 
+.intro-skills {
+	padding: 40px;
+}
 .skills {
 	width: 48%;
 	float: left;
 	margin: 0 3% 40px 0;
 }
 
+.skills p {
+	padding: 0 15px 0 0;
+}
 .skills:nth-child(2n) {
 	margin-right: 0;
 }
 
+.category {
+	padding: 10px;
+	background-color: #FA6E59;
+	color: white;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.category h1 {
+	margin: 0;
+	padding: 10px;
+}
 
 /*=== CUSTOM ICON SPRITES ===*/
 
